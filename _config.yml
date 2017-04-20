@@ -32,7 +32,7 @@ conference:
   month: September
   dates:
   - 2017-09-15
-  draft: false # set to True if the programme is draft only.
+  draft: True # set to True if the programme is draft only.
   hosts:
   organizers:
   # - name: Andreas Damianou

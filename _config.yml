@@ -1,83 +1,46 @@
 # Site settings
-title: Conference Name, Year
-email: your-email@domain.com
+title: Workshop on Deep Probabilistic Models, 2017
+email: damianou@amazon.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write a description for your conference or meeting here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "/_confweb" # the subpath of your site, e.g. /blog/
-url: "http://opendsi.cc" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  sods
+  This is the fourth informal round table on Deep Probabilistic models. 
+baseurl: "/deepp17" # the subpath of your site, e.g. /blog/
+url: "http://gpss.cc" # the base hostname & protocol for your site
+twitter_username: DataScienceShef
+github_username:  gpschool
 
-
-youtube:
-  height: 315
-  width: 560
-
-github:
-  edit: true
-  repository: _confweb
-  
-markdown: kramdown
 
 # Build settings
 future: true
 
 permalink: "/:categories/:title.html"
-banner: nice_conference_banner.jpeg
+banner: 
 
 analytics:
  google:
-   tracking_id: # Google tracking ID if applicable
+   tracking_id: UA-62991754-1
 
 youtube:
   height: 315
   width: 560
 
 conference:
-  draft: true # set to True if the programme is draft only.
-  hide_tentative: true
-  hosts:
-  
-  room: Room
-  venue: Convention Centre
-  location: City, Country
-  name: Conference Name
+  room: TBA
+  venue: TBA
+  location: Cambridge, UK
+  name: Workshop on Deep Probabilistic Models
   year: 2017
   month: September
   dates:
-  - 2017-09-12
-  - 2017-09-13
+  - 2017-09-15
+  draft: false # set to True if the programme is draft only.
   hosts:
-  general:
-  - family: Jones
-    given: Jack
-    url: "http://jackjones.org"
-  - family: Bloggs
-    given: Bill
-    url: "http://billblogs.org"
-  workshop:
-  - family:
-    given:
-    url:
-    institute:
-  symposium:
-  - family:
-    given:
-    url:
-    institute:
-  local:
-  - family:
-    given:
-    url:
-    institute:
-  sponsors:
-  - name:
-    url:
-previous_meeting:
-  name:
-  url:
+  organizers:
+  # - name: Andreas Damianou
+  #   url: "http://adamian.github.io/"
+  # - name: Zoubin Ghahramani
+  #   url: "http://mlg.eng.cam.ac.uk/zoubin/"
+  # - name: Neil Lawrence
+  #   url: "http://inverseprobability.com"
 
 map:
   show: False
@@ -89,3 +52,4 @@ map:
     zoom_level: 17
     width: 100%
     height: 500px
+Contact GitHub 
